@@ -9,6 +9,18 @@ import { MuiPickersUtilsProvider } from '@material-ui/pickers';
 import MomentUtils from '@date-io/moment';
 import "moment/locale/ko";
 
+
+
+// ReactDOM.render(
+//   <MuiPickersUtilsProvider utils={MomentUtils}>
+//   <React.StrictMode>
+//     <AppFUNC />
+//   </React.StrictMode>
+//   </MuiPickersUtilsProvider>,
+//   document.getElementById('root')
+// );
+
+
 ReactDOM.render(
   <MuiPickersUtilsProvider utils={MomentUtils}>
   <React.StrictMode>

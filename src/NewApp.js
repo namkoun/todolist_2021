@@ -11,7 +11,8 @@ import ListArea from "./components/ListArea";
 
 function NewApp(props) {
   const [todoList, setTodoList] = useState([]);
-
+  
+   
   return (
     <div className="App">
       <div className="header">TODO LIST</div>

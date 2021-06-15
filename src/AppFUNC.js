@@ -1,6 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
 
+                            // 유즈 이팩트로 사용함으로서 나타나는 생명주기!
+
+
+
 // function Hello(props){
 //     return <h1>hello, {props.name}</h1>;
 // }

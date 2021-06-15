@@ -16,6 +16,12 @@ const InputArea = (props) => {
     const [isError, setIsError] = useState(false);
     const { todoList, setTodoList } = props;
   
+    useEffect(() => {
+     
+      alert("등록");
+     },[todoList]);
+
+
     const checkValidate = () => {
       if (
         !title ||
